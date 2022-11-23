@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>2023 Fun Taiwan Winter Campe </title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/slide.css">
+	<link rel="stylesheet" href="css/index.css">
+	<script src="https://kit.fontawesome.com/966137b21f.js" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="navbar" >
+				<div class="nav" id="popup-menu">	
+					<a href="#!" class="nav-brand">
+					<h1>Fun Taiwan Camp</h1>
+					</a>
+					<a href="#!" class="navitem" id="">About Us</a>
+					<div class="navicon">
+						<button class="dropbtn" onclick="myFunction()">
+							Realevant Information
+							<i class="fa fa-bars"></i>
+						</button>
+						</div>
+					<a href="#!" class="navicon">
+							<i class="fa-brands fa-facebook"></i>
+					</a>
+					<a href="#!" class="navicon">
+						<i class="fa-brands fa-line"></i>
+					</a>
+					<a href="#!" class="navicon">
+						<i class="fa-brands fa-whatsapp"></i>
+					</a>
+					<a href="#!" class="navicon">
+						<i class="fa-solid fa-envelope"></i>
+					</a>
+					<a href="#!" class="close-btn">
+						<span></span>
+						<span></span>
+					</a>
+					<a href="#popup-menu" class="menu-toggle">
+							<span></span>
+							<span></span>
+							<span></span>
+					</a>
+				</div>			
+			</div>		
+        <!-- 顯示選單 -->
+        <!-- 顯示 Realevant Information -->
+        <div class="drop-content" id="myContent">
+            <div class="header">
+                <h2>Fun Taiwan Camp : the Best Way to learn Mandarin</h2>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 col-xl-3 ">
+                    <a href="#campinformation" class="type">Camp Information</a>                
+                    <a href="#!">When is the camp</a>
+                    <a href="#!">How to sign up</a>
+                    <a href="#!">Tuition and Date</a>
+                    <a href="#!">Q & A </a>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-xl-3">
+                    <a href="#comprehensive" class="type">Comprehensive Learning Mandain</a>
+                   <!--  <a href="#!">Interact with local childred</a>
+                    <a href="#!">Professional teachers</a>
+                    <a href="#!">Hand on Activities</a> -->
+                </div>
+                <div class="col-sm-6 col-xs-12 col-xl-3">
+                    <a href="#outdoor" class="type">Outdoop Trip</a>
+                    <a href="#!">Near Taipei City</a>
+                    <a href="#!">Nature Taiwan</a>
+                    <a href="#!">Culture meets Nature</a>
+                </div>
+                <div class="col-sm-6 col-xs-12 col-xl-3">
+                    <a href="#culture" class="type">Cultural Experience</a>
+                    <!-- <a href="#!">Combination of Mandarin and Taiwanese Culture</a>
+                    <a href="#!">Learn about diverse Taiwan</a>
+                    <a href="#!">Application of Mandarin in daily life</a> -->
+                </div>
+            </div>
+        </div>
+        <!-- Realevant Information 結束 -->
+
+       </header>
+       <!-- Main 開始 -->
+       <div class="main">
+       	<!-- 顯示About 介紹 -->
+       		 <div class="about-content" id="weContent"> 
+				<div class="container">
+				  <h2 style="text-align:center;">About Us</h2>
+				  <div class="mySlides">
+				    <div class="numbertext">1 / 6</div>
+				    <img src="https://picsum.photos/1400/300?random=1" style="width:100%;">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">2 / 6</div>
+				    <img src="https://picsum.photos/1400/300?random=2" style="width:100%">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">3 / 6</div>
+				    <img src="https://picsum.photos/1400/300?random=3" style="width:100% ">
+				  </div>
+				    
+				  <div class="mySlides">
+				    <div class="numbertext">4 / 6</div>
+				    <img src="https://picsum.photos/1400/300?random=4" style="width:100% ">
+				  </div>
+
+				  <div class="mySlides">
+				    <div class="numbertext">5 / 6</div>
+				    <img src="https://picsum.photos/1400/300?random=5" style="width:100% ">
+				  </div>
+				    
+				  <div class="mySlides">
+				    <div class="numbertext">6 / 6</div>
+				    <img src="https://picsum.photos/1200/300?random=6" style="width:100%">
+				  </div>
+				    
+				  <a class="prev" onclick="plusSlides(-1)">❮</a>
+				  <a class="next" onclick="plusSlides(1)">❯</a>
+
+				  <div class="caption-container">
+				    <p id="caption"></p>
+				  </div>
+
+				  <div class="row">
+				    <div class="column">
+				      <img class="demo cursor" src="https://picsum.photos/200/300?random=1" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="https://picsum.photos/200/300?random=2" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="https://picsum.photos/200/300?random=3" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="https://picsum.photos/200/300?random=4" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+				    </div>
+				    <div class="column">
+				      <img class="demo cursor" src="https://picsum.photos/200/300?random=5" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+				    </div>    
+				    <div class="column">
+				      <img class="demo cursor" src="https://picsum.photos/200/300?random=6" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+				    </div>
+				  </div>
+        	</div> 
+        <!-- About 結束 -->
+       		</div>   
+       	<!-- 各項單項介紹開始 -->
+       	<!-- Camp Information 開始 -->
+       		<div class="hero" id="campinformation">
+       			<div class="container">
+       				<div class="section-intro">
+       					<h1 class="title">Camp Information</h1>
+       					<p class="para">Here will provide you more relevant information</p>
+       				</div>
+       				<div class="row">
+       					<div class="col-sm-6 col-xs-12 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=5">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">When is the Camp</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的說明東西的美味及外觀等等的。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       					<div class="col-sm-6 col-xs-12 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=4">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">
+       								How to sign up</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       					<div class="col-sm-6 col-xs-12 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=2">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">Tuition and Date</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       					<div class="col-sm-6 col-xs-12 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=3">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">Q & A</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       				</div>
+       			</div>
+       		</div>
+       	<!-- Camp Information 結束 -->
+       	<!-- Comprehensive Learning Mandain 開始 -->
+       		<div class="hero-comprehensive" id="comprehensive">
+       			<div class="container">
+       				<div class="section-intro">
+       					<h1 class="title">Comprehensive Learning Mandain</h1>
+       					<p class="para">Here will provide you more relevant information</p>
+       				</div>
+       			</div>
+       			<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+				  <div class="carousel-indicators">
+				    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  </div>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active" data-bs-interval="10000">
+				      <img src="https://picsum.photos/1000/300?random=7" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>First slide label</h5>
+				        <p>Some representative placeholder content for the first slide.</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item active" data-bs-interval="2000">
+				      <img src="https://picsum.photos/1000/300?random=10" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>Second slide label</h5>
+				        <p>Some representative placeholder content for the second slide.</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="https://picsum.photos/1000/300?random=12" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>Third slide label</h5>
+				        <p>Some representative placeholder content for the third slide.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+				    <span class="visually-hidden text-red">Previous</span>
+				  </button>
+				  <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+				    <span class="carousel-control-next-icon " aria-hidden="true"></span>
+				    <span class="visually-hidden ">Next</span>
+				  </button>
+				</div>
+       		</div>
+       	<!-- Comprehensive Learning Mandain 結束 -->
+       	<!-- Outdoop Trip 介紹 -->
+       		<div class="hero-trip" id="outdoor">
+       			<div class="container">
+       				<div class="section-intro">
+       					<h1 class="title">Outdoor Trip</h1>
+       					<p class="para">Here will provide you more relevant information</p>
+       				</div>
+       				<div class="row">
+       					<div class="col-xs-12 col-sm-6 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=6">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">When is the Camp</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的說明東西的美味及外觀等等的。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       					<div class="col-xs-12 col-sm-6 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=7">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">When is the Camp</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的說明東西的美味及外觀等等的。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       					<div class="col-xs-12 col-sm-6 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=8">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">When is the Camp</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的說明東西的美味及外觀等等的。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+       					<div class="col-xs-12 col-sm-6 col-md-3">
+       						<div class="information-item">
+       							<div class="image-container">
+       								<img src="https://picsum.photos/200/300?random=8">
+       							</div>
+       							<div class="preview">
+       								<h4 class="title">When is the Camp</h4>
+       								<h5 class="subtitle">現煮的香濃咖啡，優質的咖啡豆</h5>
+       								<p class="para">一段中文的敘述文字，說明東西的美味及外觀等等的話，一段中文的說明東西的美味及外觀等等的。</p>
+									<a href="#!" class="btn btn-secondary">Read more</a>
+       							</div>
+       						</div>
+       					</div>
+
+       				</div>
+       			</div>
+       		</div>
+       	<!-- Outdoop Trip 介紹結束 -->
+
+       	<!-- Cultural Experience 介紹開始 -->
+       		<div class="hero" id="culture">
+       			<div class="container">
+       				<div class="section-intro">
+       					<h1 class="title">Comprehensive Learning Mandain</h1>
+       					<p class="para">Here will provide you more relevant information</p>
+       				</div>
+       			</div>
+       			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+				  <div class="carousel-indicators">
+				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+				  </div>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active">
+				      <img src="https://picsum.photos/1200/300?random=2" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>First slide label</h5>
+				        <p>Some representative placeholder content for the first slide.</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="https://picsum.photos/1200/300?random=9" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>Second slide label</h5>
+				        <p>Some representative placeholder content for the second slide.</p>
+				      </div>
+				    </div>
+				    <div class="carousel-item">
+				      <img src="https://picsum.photos/1200/300?random=7" class="d-block w-100" alt="...">
+				      <div class="carousel-caption d-none d-md-block">
+				        <h5>Third slide label</h5>
+				        <p>Some representative placeholder content for the third slide.</p>
+				      </div>
+				    </div>
+				  </div>
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Previous</span>
+				  </button>
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="visually-hidden">Next</span>
+				  </button>
+				</div>
+       		</div>
+       	<!-- Cultural Experience 介紹結束 -->
+       	<!-- 各項單項介紹結束 -->
+        <!-- Main 結束 -->
+        <!-- 聯絡資訊介紹 -->
+        <div id="" class="hero-contact">
+        	<div class="row">
+        		<div class="col">
+        			<div class="container">
+        				<h3>【Fun Study Nest Classroom Locations】</h3>
+        				<div class="image-container">
+        					<img src="./images/fun.png" style="width:150px; height:150px;">
+        				</div>
+        				<div class="contact-group">
+        					<div>Address :<a href="https://goo.gl/maps/tn7ahgk6CJQoCq599"> 1F., No. 38, Ln. 295, Sec. 1, Dunhua S. Rd., Da’an Dist., Taipei City, Taiwan</a><br>Classrooms are 5-8 min walking distance from MRT Xinyi Anhe Station.</div>
+        					<div>Tel: +886-2-2706-0303</div>
+        				</div> 
+        				<div class="icon-group">
+        					<a href="#!"><i class="fa-brands fa-line"></i></a>
+        					<a href="#!"><i class="fa-brands fa-facebook"></i></a>
+        				</div>      				
+        			</div>
+        		</div>
+        		<div class="col">
+        			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3614.9622263397014!2d121.54885761440454!3d25.035355944392432!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442abce7ced111f%3A0x93589e738ab6fd7f!2zMTA25Y-w5YyX5biC5aSn5a6J5Y2A5pWm5YyW5Y2X6Lev5LiA5q61Mjk15be3MzjomZ8!5e0!3m2!1szh-TW!2stw!4v1667991147097!5m2!1szh-TW!2stw" width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        		</div>
+        	</div>
+        </div>
+         <!-- 聯絡資訊結束 -->
+        <!-- Fotter 設定開始 -->
+        <div class="hero fotter">
+        	<p>© Copyright 2022 All rights reserved from Shack Lin</p>
+        </div>
+        <!-- Fotter 設定結束 -->
+	</div>
+	</div>
+<!-- Script 設定 -->
+	<script>
+		function myFunction() {
+		  var y = document.getElementById("myContent");
+		  var z=document.getElementById("weContent");
+		  if (y.style.display === "none") {
+		    y.style.display = "block";
+		    z.style.display="none";
+		  } else {
+		    y.style.display = "none";
+		    z.style.display="block";
+		  }
+		}
+
+		let slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+
+			function showSlides(n) {
+			  let i;
+			  let slides = document.getElementsByClassName("mySlides");
+			  let dots = document.getElementsByClassName("demo");
+			  let captionText = document.getElementById("caption");
+			  if (n > slides.length) {slideIndex = 1}
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			    slides[i].style.display = "none";
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			    dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block";
+			  dots[slideIndex-1].className += " active";
+			  captionText.innerHTML = dots[slideIndex-1].alt;
+			}
+
+
+	</script>
+<!-- Script 設定結束 -->
+</body>
+
+</html>
